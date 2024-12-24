@@ -5,7 +5,7 @@ public class App {
                 "john.doe@university.edu", "Computer Science", "Mathematics");
         
         // Create another student object
-        Student student2 = new Student("Jane", "Smiths", "67890",
+        Student student2 = new Student("Jane", "Smithsonian", "67890",
                 "jane.smith@university.edu", "Physics", "Chemistry");
         
         // Display student1 information
