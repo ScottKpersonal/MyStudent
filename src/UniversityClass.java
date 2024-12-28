@@ -54,8 +54,7 @@ public class UniversityClass {
                 "className='" + className + '\'' +
                 ", classId='" + classId + '\'' +
                 ", numberOfSemesters=" + numberOfSemesters +
-                ", teacher='" + teacher + '\'' +
-                ", faculty='" + faculty + '\'' +
+                ", faculty='" + faculty + '\''+
                 '}';
     }
 }
