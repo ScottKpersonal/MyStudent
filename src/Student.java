@@ -6,15 +6,17 @@ public class Student {
     private String email;
     private String major;
     private String minor;
+    private String faculty;
 
     // Constructor
-    public Student(String firstName, String lastName, String studentId, String email, String major, String minor) {
+    public Student(String firstName, String lastName, String studentId, String email, String major, String minor, String faculty) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.studentId = studentId;
         this.email = email;
         this.major = major;
         this.minor = minor;
+        this.faculty = faculty;
     }
 
  
