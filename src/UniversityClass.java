@@ -3,7 +3,6 @@ public class UniversityClass {
     private String className;
     private String classId;
     private int numberOfSemesters;
-    private String teacher;
     private String faculty;
 
     // Constructor
@@ -12,7 +11,6 @@ public class UniversityClass {
         this.className = className;
         this.classId = classId;
         this.numberOfSemesters = numberOfSemesters;
-        this.teacher = teacher;
         this.faculty = faculty;
     }
 
@@ -39,14 +37,6 @@ public class UniversityClass {
 
     public void setNumberOfSemesters(int numberOfSemesters) {
         this.numberOfSemesters = numberOfSemesters;
-    }
-
-    public String getTeacher() {
-        return teacher;
-    }
-
-    public void setTeacher(String teacher) {
-        this.teacher = teacher;
     }
 
     public String getFaculty() {
