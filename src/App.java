@@ -34,14 +34,22 @@ public class App {
                 "Calculus I", 
                 "MATH101", 
                 1, 
-                "Mathematics", "CS"
+                "CS"
             );
+
+        // Create some university class instances
+        UniversityClass BioChemClass = new UniversityClass(
+                "BioChemistry", 
+                "BIOCHEM01", 
+                1, 
+                "Life Sciences"
+            );  
             
         UniversityClass programmingClass = new UniversityClass(
                 "Introduction to Programming", 
                 "CS101", 
                 2, 
-                "Computer Science", "CS"
+                "CS"
             );
             
             // Print the class information

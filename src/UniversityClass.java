@@ -7,7 +7,7 @@ public class UniversityClass {
 
     // Constructor
     public UniversityClass(String className, String classId, int numberOfSemesters, 
-                          String teacher, String faculty) {
+                          String faculty) {
         this.className = className;
         this.classId = classId;
         this.numberOfSemesters = numberOfSemesters;
