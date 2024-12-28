@@ -7,7 +7,7 @@ public class UniversityClass {
 
     // Constructor
     public UniversityClass(String className, String classId, int numberOfSemesters, 
-                          String teacher, String faculty) {
+                          String faculty) {
         this.className = className;
         this.classId = classId;
         this.numberOfSemesters = numberOfSemesters;
@@ -54,8 +54,7 @@ public class UniversityClass {
                 "className='" + className + '\'' +
                 ", classId='" + classId + '\'' +
                 ", numberOfSemesters=" + numberOfSemesters +
-                ", teacher='" + teacher + '\'' +
-                ", faculty='" + faculty + '\'' +
+                ", faculty='" + faculty + '\''+
                 '}';
     }
 }
